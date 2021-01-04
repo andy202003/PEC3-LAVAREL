@@ -1,0 +1,52 @@
+* {
+    background-color: cornsilk;
+}
+body
+{
+    background-color: cornsilk; 
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+div.noticia {
+    background-color: gainsboro;
+    border-style: dotted;
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+ul,
+li {
+    background-color: gainsboro;
+    list-style: none;
+}
+
+a{
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+.resumen{
+    background-color: #F8EDEA !important;
+    font-size: 30px;
+}
+
+.resumen img{
+    border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px; 
+   height: auto; 
+}
